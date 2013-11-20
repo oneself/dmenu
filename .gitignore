@@ -1,0 +1,6 @@
+config.h
+dmenu
+dmenu_mru
+stest
+*.o
+*.tar.gz

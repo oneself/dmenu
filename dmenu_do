@@ -1,0 +1,2 @@
+#!/bin/sh
+exe=`dmenu_path | dmenu_mru | dmenu ${1+"$@"}` && exec `dmenu_mru $exe`
