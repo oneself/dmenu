@@ -14,9 +14,6 @@ options:
 	@echo "LDFLAGS  = $(LDFLAGS)"
 	@echo "CC       = $(CC)"
 
-debug: CFLAGS += -g
-debug: all
-
 .c.o:
 	$(CC) -c $(CFLAGS) $<
 
