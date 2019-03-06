@@ -1,2 +1,4 @@
-#!/bin/sh
+#!/bin/zsh
+# HACK: slim dm stopped working and lightmd doesn't load up $PATH properly, for some reason.  I
+# changed the shell to zsh instead of sh.
 exe=`dmenu_path | dmenu_mru | dmenu ${1+"$@"}` && exec `dmenu_mru $exe`
